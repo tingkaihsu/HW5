@@ -1,0 +1,77 @@
+\documentclass[12pt,a4paper]{article}
+
+% Packages for enhanced functionality
+\usepackage{braket}
+\usepackage{physics}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage[export]{adjustbox}
+\usepackage{listings}
+\usepackage{mathcomp}
+\usepackage{hyperref}
+\usepackage{bm,amsmath}
+\usepackage{float}
+\usepackage{indentfirst}
+\usepackage{bigints}
+\usepackage{color}
+\usepackage[margin=2.2cm]{geometry}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    pdftitle={HW3: Thank You For Smoking},
+    pdfpagemode=FullScreen,
+}
+
+% Listings setup for code formatting
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\lstset{
+    frame=tb,
+    language=Python,
+    aboveskip=3mm,
+    belowskip=3mm,
+    stepnumber=1,
+    showstringspaces=false,
+    columns=flexible,
+    basicstyle={\small\ttfamily},
+    numbers=left,
+    numberstyle=\color{gray},
+    keywordstyle=\color{blue},
+    commentstyle=\color{dkgreen},
+    stringstyle=\color{mauve},
+    breaklines=true,
+    breakatwhitespace=true,
+    tabsize=3
+}
+
+% Number equations by section
+\numberwithin{equation}{section}
+
+% Document metadata
+\title{HW5: How to Pick a Research Topic}
+\author{
+    Ting-kai Hsu\\
+    B11901097\\
+    \textit{Department of Electrical Engineering, NTU}
+}
+\date{\today}
+
+\begin{document}
+
+% Title page
+\maketitle
+
+% Table of contents
+\tableofcontents
+\section{Introduction}
+We overviewed Hawkings' life in searching the theory of unification in the film, \textit{the theory of everything}. In this homework, please read a paper \cite{doi:10.1126/science.177.4047.393} and watch two videos of two Nobel laureates, P.Anderson and S.Weinberg.
+% References
+\bibliographystyle{plain}
+\bibliography{ref}
+
+\end{document}
