@@ -1,87 +1,36 @@
-\documentclass[12pt,a4paper]{article}
-
-% Packages for enhanced functionality
-\usepackage{braket}
-\usepackage{physics}
-\usepackage{graphicx}
-\usepackage{times}
-\usepackage[export]{adjustbox}
-\usepackage{listings}
-\usepackage{mathcomp}
+\documentclass[a4paper,12pt]{article}
 \usepackage{hyperref}
-\usepackage{bm,amsmath}
-\usepackage{float}
-\usepackage{indentfirst}
-\usepackage{bigints}
-\usepackage{color}
-\usepackage[margin=2.2cm]{geometry}
-
-% Hyperlink setup
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,
-    urlcolor=cyan,
-    pdftitle={HW3: Thank You For Smoking},
-    pdfpagemode=FullScreen,
-}
-
-% Listings setup for code formatting
-\definecolor{dkgreen}{rgb}{0,0.6,0}
-\definecolor{gray}{rgb}{0.5,0.5,0.5}
-\definecolor{mauve}{rgb}{0.58,0,0.82}
-\lstset{
-    frame=tb,
-    language=Python,
-    aboveskip=3mm,
-    belowskip=3mm,
-    stepnumber=1,
-    showstringspaces=false,
-    columns=flexible,
-    basicstyle={\small\ttfamily},
-    numbers=left,
-    numberstyle=\color{gray},
-    keywordstyle=\color{blue},
-    commentstyle=\color{dkgreen},
-    stringstyle=\color{mauve},
-    breaklines=true,
-    breakatwhitespace=true,
-    tabsize=3
-}
-
-% Number equations by section
-\numberwithin{equation}{section}
-
-% Document metadata
-\title{HW5: How to Pick a Research Topic}
-\author{
-    Ting-kai Hsu\\
-    B11901097\\
-    \textit{Department of Electrical Engineering, NTU}
-}
-\date{\today}
 
 \begin{document}
 
-% Title page
-\maketitle
+\section*{Overview}
 
-% Table of contents
-\tableofcontents
-\section{Introduction}
-We overviewed Hawkings' life in searching the theory of unification in the film, \textit{the theory of everything}. In this homework, please read a paper \cite{doi:10.1126/science.177.4047.393} and watch two videos \cite{Weinberg2021} \cite{Weinberg2021Part2} of two Nobel laureates, P.Anderson and S.Weinberg. Hawkings and most of the physicists believe there is a simple theory that is able to describe everything in our universe, and such success have been accomplished partially in last century, \textbf{the Standard Model} can describe three elementary forces in a compact way. Theorists now work hard on combining the forth force, gravity into this framework.
+In the film \textit{The Theory of Everything}, we explored the life of Stephen Hawking and his pursuit of a unified theory of the universe. This homework assignment builds upon that theme by asking you to engage with key works from two Nobel laureates, P. W. Anderson and Steven Weinberg. Specifically, you are required to read Anderson's seminal paper \cite{doi:10.1126/science.177.4047.393} and watch two videos \cite{Weinberg2021, Weinberg2021Part2} featuring Weinberg's perspectives.
 
-Although Newton's law is capable to describe a falling ball precisely, as more and more conditions are taken into account (like dragging force of air and so on), the simple model can become more and more complicated and unpredictable eventually. This point of view is taken by Anderson, which says in his paper \cite{doi:10.1126/science.177.4047.393} that physics laws hold in few-body system, but fail in many-body system, where there might be interesting phenomena that could not be predicted by the fundamental physics laws.
+Hawking, along with many physicists, believed in the existence of a simple, fundamental theory capable of explaining all phenomena in the universe. Substantial progress toward this goal was achieved in the 20th century through the development of the \textbf{Standard Model}, which provides a compact framework for describing three of the four fundamental forces of nature. The current challenge for theorists lies in integrating the fourth force, gravity, into this framework.
 
-On the other hand, Weinberg gave an interview sharing his point of view in finding the theory of everything, which he believed sooner or later would be completed. The concept of reductionism and holism \cite{WikipediaReductionism} \cite{WikipediaHolism} appears in different science areas, one should carefully read through their basic idea and realize that they are totally different methods used in science research.
+While Newton’s laws effectively describe phenomena such as a falling ball, complications arise as additional factors (e.g., air resistance) are introduced. Such complexities often render simple models increasingly intricate and less predictable. P. W. Anderson’s perspective, articulated in his paper \cite{doi:10.1126/science.177.4047.393}, emphasizes that while physical laws govern small-scale systems, they often fail to capture the emergent phenomena observed in complex, many-body systems.
 
-\section{Requirement}
-Please carefully read and watch through the paper of Anderson and videos of Weinberg, and point out their strength and weakness on their research interest, and tell me what would you choose if you are currently doing research? Please give concrete reasoning and don't just write out your personal feelings.
-\section{Materials}
-Movie: \textit{The theory of everything}
-Reading assignment: one paper \cite{doi:10.1126/science.177.4047.393} and two 17 mins long videos \cite{Weinberg2021} \cite{Weinberg2021Part2}.
-% References
-\bibliographystyle{plain}
-\bibliography{ref}
+Conversely, Steven Weinberg advocates for the pursuit of a unified theory, expressing confidence that such a theory will eventually be realized. In his interviews, he discusses reductionism—the idea that understanding a system’s fundamental components leads to a complete understanding of the whole—and contrasts it with holism, a framework asserting that systems must be studied as integrated wholes. These concepts, which span multiple scientific disciplines, represent distinct approaches to scientific inquiry \cite{WikipediaReductionism, WikipediaHolism}.
+
+\section*{Requirements}
+
+You are tasked with carefully reviewing Anderson's paper and Weinberg’s videos, analyzing the strengths and weaknesses of their respective research perspectives. Based on your analysis, decide which approach you would adopt if you were conducting research, providing clear and reasoned arguments. Personal opinions without substantiation should be avoided.
+
+\section*{Materials}
+
+\begin{itemize}
+    \item \textbf{Film}: \textit{The Theory of Everything}
+    \item \textbf{Reading Assignment}: Anderson, P. W. (1972). \textit{More is Different} \cite{doi:10.1126/science.177.4047.393}
+    \item \textbf{Videos}: Two 17-minute interviews with Steven Weinberg \cite{Weinberg2021, Weinberg2021Part2}
+\end{itemize}
+
+\begin{thebibliography}{99}
+    \bibitem{doi:10.1126/science.177.4047.393} P. W. Anderson, ``More is Different,'' \textit{Science}, vol. 177, no. 4047, pp. 393-396, 1972. DOI: \url{https://doi.org/10.1126/science.177.4047.393}.
+    \bibitem{Weinberg2021} S. Weinberg, ``Interview Part 1,'' 2021. \url{https://example.com/weinberg1}.
+    \bibitem{Weinberg2021Part2} S. Weinberg, ``Interview Part 2,'' 2021. \url{https://example.com/weinberg2}.
+    \bibitem{WikipediaReductionism} Wikipedia contributors, ``Reductionism,'' \textit{Wikipedia}. \url{https://en.wikipedia.org/wiki/Reductionism}.
+    \bibitem{WikipediaHolism} Wikipedia contributors, ``Holism,'' \textit{Wikipedia}. \url{https://en.wikipedia.org/wiki/Holism}.
+\end{thebibliography}
 
 \end{document}
